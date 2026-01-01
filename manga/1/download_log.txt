@@ -1,0 +1,118 @@
+=== Download Log for Chapter 1 ===
+
+[10:05:26] Downloaded: 0.jpg
+[10:05:28] Downloaded: 1.jpg
+[10:05:31] Downloaded: 2.jpg
+[10:05:33] Downloaded: 3.jpg
+[10:05:35] Downloaded: 4.jpg
+[10:05:39] Downloaded: 5.jpg
+[10:05:41] Downloaded: 6.jpg
+[10:05:44] Downloaded: 7.jpg
+[10:05:46] Downloaded: 8.jpg
+[10:05:49] Downloaded: 9.jpg
+[10:05:51] Downloaded: 10.jpg
+[10:05:54] Downloaded: 11.jpg
+[10:05:56] Downloaded: 12.jpg
+[10:05:59] Downloaded: 13.jpg
+[10:06:02] Downloaded: 14.jpg
+[10:06:04] Downloaded: 15.jpg
+[10:06:07] Downloaded: 16.jpg
+[10:06:09] Downloaded: 17.jpg
+[10:06:11] Downloaded: 18.jpg
+[10:06:14] Downloaded: 19.jpg
+[10:06:16] Downloaded: 20.jpg
+[10:06:19] Downloaded: 21.jpg
+[10:06:21] Downloaded: 22.jpg
+[10:06:24] Downloaded: 23.jpg
+[10:06:26] Downloaded: 24.jpg
+[10:06:29] Downloaded: 25.jpg
+[10:06:32] Downloaded: 26.jpg
+[10:06:34] Downloaded: 27.jpg
+[10:06:37] Downloaded: 28.jpg
+[10:06:39] Downloaded: 29.jpg
+[10:06:42] Downloaded: 30.jpg
+[10:06:44] Downloaded: 31.jpg
+[10:06:46] Downloaded: 32.jpg
+[10:06:49] Failed: 33.jpg — Status Code: 404
+[10:06:49] Failed: 33.png — Status Code: 404
+[10:06:50] Failed: 33.webp — Status Code: 404
+[10:06:51] Failed: 033.jpg — Status Code: 404
+[10:06:52] Failed: 033.png — Status Code: 404
+[10:06:52] Failed: 033.webp — Status Code: 404
+[10:06:55] Failed: 34.jpg — Status Code: 404
+[10:06:55] Failed: 34.png — Status Code: 404
+[10:06:56] Failed: 34.webp — Status Code: 404
+[10:06:57] Failed: 034.jpg — Status Code: 404
+[10:06:57] Failed: 034.png — Status Code: 404
+[10:06:58] Failed: 034.webp — Status Code: 404
+[10:07:00] Failed: 35.jpg — Status Code: 404
+[10:07:01] Failed: 35.png — Status Code: 404
+[10:07:01] Failed: 35.webp — Status Code: 404
+[10:07:03] Failed: 035.jpg — Status Code: 404
+[10:07:03] Failed: 035.png — Status Code: 404
+[10:07:04] Failed: 035.webp — Status Code: 404
+[10:07:06] Failed: 36.jpg — Status Code: 404
+[10:07:07] Failed: 36.png — Status Code: 404
+[10:07:07] Failed: 36.webp — Status Code: 404
+[10:07:09] Failed: 036.jpg — Status Code: 404
+[10:07:09] Failed: 036.png — Status Code: 404
+[10:07:10] Failed: 036.webp — Status Code: 404
+[10:07:12] Failed: 37.jpg — Status Code: 404
+[10:07:13] Failed: 37.png — Status Code: 404
+[10:07:13] Failed: 37.webp — Status Code: 404
+[10:07:14] Failed: 037.jpg — Status Code: 404
+[10:07:15] Failed: 037.png — Status Code: 404
+[10:07:15] Failed: 037.webp — Status Code: 404
+
+⛔ Stopped chapter 1 after 5 consecutive failures.
+
+🔁 Retrying failed images...
+[10:07:16] Retry Failed: 33.jpg — Status Code: 404
+[10:07:17] Retry Failed: 33.png — Status Code: 404
+[10:07:18] Retry Failed: 33.webp — Status Code: 404
+[10:07:20] Retry Failed: 34.jpg — Status Code: 404
+[10:07:21] Retry Failed: 34.png — Status Code: 404
+[10:07:22] Retry Failed: 34.webp — Status Code: 404
+[10:07:24] Retry Failed: 35.jpg — Status Code: 404
+[10:07:25] Retry Failed: 35.png — Status Code: 404
+[10:07:27] Retry Failed: 35.webp — Status Code: 404
+[10:07:28] Retry Failed: 36.jpg — Status Code: 404
+[10:07:29] Retry Failed: 36.png — Status Code: 404
+[10:07:30] Retry Failed: 36.webp — Status Code: 404
+[10:07:32] Retry Failed: 37.jpg — Status Code: 404
+[10:07:33] Retry Failed: 37.png — Status Code: 404
+[10:07:34] Retry Failed: 37.webp — Status Code: 404
+[10:07:36] Retry Failed: 33.jpg — Status Code: 404
+[10:07:37] Retry Failed: 33.png — Status Code: 404
+[10:07:38] Retry Failed: 33.webp — Status Code: 404
+[10:07:40] Retry Failed: 34.jpg — Status Code: 404
+[10:07:41] Retry Failed: 34.png — Status Code: 404
+[10:07:43] Retry Failed: 34.webp — Status Code: 404
+[10:07:44] Retry Failed: 35.jpg — Status Code: 404
+[10:07:45] Retry Failed: 35.png — Status Code: 404
+[10:07:47] Retry Failed: 35.webp — Status Code: 404
+[10:07:48] Retry Failed: 36.jpg — Status Code: 404
+[10:07:49] Retry Failed: 36.png — Status Code: 404
+[10:07:51] Retry Failed: 36.webp — Status Code: 404
+[10:07:52] Retry Failed: 37.jpg — Status Code: 404
+[10:07:53] Retry Failed: 37.png — Status Code: 404
+[10:07:55] Retry Failed: 37.webp — Status Code: 404
+[10:07:56] Retry Failed: 33.jpg — Status Code: 404
+[10:07:57] Retry Failed: 33.png — Status Code: 404
+[10:07:59] Retry Failed: 33.webp — Status Code: 404
+[10:08:00] Retry Failed: 34.jpg — Status Code: 404
+[10:08:01] Retry Failed: 34.png — Status Code: 404
+[10:08:03] Retry Failed: 34.webp — Status Code: 404
+[10:08:04] Retry Failed: 35.jpg — Status Code: 404
+[10:08:05] Retry Failed: 35.png — Status Code: 404
+[10:08:07] Retry Failed: 35.webp — Status Code: 404
+[10:08:08] Retry Failed: 36.jpg — Status Code: 404
+[10:08:10] Retry Failed: 36.png — Status Code: 404
+[10:08:11] Retry Failed: 36.webp — Status Code: 404
+[10:08:12] Retry Failed: 37.jpg — Status Code: 404
+[10:08:14] Retry Failed: 37.png — Status Code: 404
+[10:08:15] Retry Failed: 37.webp — Status Code: 404
+
+❌ Still failed after retries: 33, 34, 35, 36, 37
+
+✅ Chapter 1 completed. Total images saved: 33

@@ -1,0 +1,21 @@
+# --- System ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# --- Large Models ---
+*.pth
+*.zip
+networks/generator.zip
+networks/generator.pth
+
+# --- User Data (Keep your images local) ---
+# manga/
+# output/
+# figures/
