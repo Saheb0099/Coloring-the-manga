@@ -17,7 +17,7 @@ It is designed specifically for **Mac users (M-Series chips)** and **bulk chapte
 1.  **Clone this repository**
     ```bash
     git clone <your-repo-url>
-    cd manga-colorization-by-saheb
+    cd Coloring-the-manga
     ```
 
 2.  **Install Dependencies**
