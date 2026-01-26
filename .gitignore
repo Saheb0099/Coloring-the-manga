@@ -16,6 +16,12 @@ networks/generator.zip
 networks/generator.pth
 
 # --- User Data (Keep your images local) ---
-# manga/
-# output/
+
+input_manga/        
+#(input manga folder)
+
+output_manga/
+#(output manga folder)
+
 # figures/
+

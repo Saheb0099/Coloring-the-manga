@@ -1,17 +1,18 @@
 import os
 import torch
+import time
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image, ImageEnhance
 from colorizator import MangaColorizator 
 
 # --- CONFIGURATION ---
-INPUT_ROOT = "manga"         # Your main folder
-OUTPUT_ROOT = "output"       # Where results go
+INPUT_ROOT = "input_manga"         # Your main folder
+OUTPUT_ROOT = "output_manga"       # Where results go
 MODEL_PATH = "networks/generator.pth" # The file you moved
 IMAGE_SIZE = 576             # Standard size (keep multiples of 32)
 DENOISE_LEVEL = 25           # 0 to disable, 25 is standard
-VIBRANCY_BOOST = 1.4         # 1.0 = Original, 1.4 = 40% more colorful
+VIBRANCY_BOOST = 1         # 1.0 = Original, 1.4 = 40% more colorful
 
 def get_device():
     if torch.cuda.is_available():
@@ -31,6 +32,9 @@ def boost_color(image_array, factor):
     return enhancer.enhance(factor)
 
 def main():
+
+    start_time = time.time()
+
     # 1. Setup
     if not os.path.exists(INPUT_ROOT):
         print(f"❌ Error: Folder '{INPUT_ROOT}' not found.")
@@ -47,6 +51,8 @@ def main():
         print(f"❌ Error: Model not found at '{MODEL_PATH}'.")
         print("   Make sure you moved 'generator.pth' into the 'networks' folder!")
         return
+
+
 
     # 2. Find Chapters
     chapters = sorted([d for d in os.listdir(INPUT_ROOT) if os.path.isdir(os.path.join(INPUT_ROOT, d))])
@@ -86,13 +92,28 @@ def main():
                 # C. Boost Color & Save (Custom Logic)
                 final_img = boost_color(result_array, VIBRANCY_BOOST)
                 final_img.save(out_path)
+
+                # --- MEMORY HYGIENE BLOCK ---
+                # This ensures page 1's memory is gone before page 2 starts
+                del result_array 
+                if device == 'mps':
+                    torch.mps.empty_cache() # Clears Mac M4 memory
+                elif device == 'cuda':
+                    torch.cuda.empty_cache() # Clears NVIDIA GPU memory
                 
                 print(f"   [{idx+1}/{len(images)}] Saved: {img_name}")
                 
             except Exception as e:
                 print(f"   ⚠️ Failed {img_name}: {e}")
 
-    print("\n✅ All Done! Check the 'output' folder.")
+    end_time = time.time()
+    total_seconds = end_time - start_time
+    
+    minutes = int(total_seconds // 60)
+    seconds = int(total_seconds % 60)
+
+    print(f"✅ All Done! Check the '{OUTPUT_ROOT}' folder.")
+    print(f"⏱️ Total Time Taken: {minutes} minutes and {seconds} seconds")
 
 if __name__ == "__main__":
     main()
